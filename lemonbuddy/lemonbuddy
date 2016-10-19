@@ -196,6 +196,7 @@ adapter = AC
 
 format-charging = <ramp-capacity> <label-charging> <bar-capacity>
 format-discharging = <ramp-capacity> <label-discharging> <bar-capacity>
+format-full = <ramp-capacity> <bar-capacity>
 
 label-charging = +
 label-discharging = -
