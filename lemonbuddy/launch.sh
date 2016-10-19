@@ -7,6 +7,6 @@ killall -q lemonbuddy
 while pgrep -x lemonbuddy >/dev/null; do sleep 1; done
 
 # Launch bar1 and bar2
-lemonbuddy default -c ~/.config/lemonbuddy/lemonbuddy &
+lemonbuddy $(hostname) -c ~/.config/lemonbuddy/lemonbuddy &
 
 echo "Bars launched..."
