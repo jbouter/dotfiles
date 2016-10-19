@@ -42,7 +42,7 @@ URxvt.loginShell:           true
 URxvt.saveLines:            4096
 URxvt.internalBorder:       0
 URxvt.lineSpace:            0
-URxvt.borderWidth:          1
+URxvt.borderWidth:          0
 URxvt.externalBorder:       1
 URxvt.borderColor:          #fac863
 URxvt.fading:               50
