@@ -18,6 +18,7 @@
 * Iosevka (AUR: ttf-iosevka, ttf-iosevka-slab, ttf-iosevka-term, ttf-iosevka-term-slab)
 * Ubuntu Fonts (ttf-ubuntu-font-family-ib)
 * Font Awesome (used for icons in bar, AUR: ttf-font-awesome)
+* Noto Sans (ttf-noto-fonts-ib)
 
 # Installation of i3 + urxvt theme
 There are three basic directories. My installation is as follows
