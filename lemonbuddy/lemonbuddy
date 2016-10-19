@@ -84,7 +84,7 @@ interval = 2
 format = <label> <bar-load>
 label = 
 
-bar-load-width = 20
+bar-load-width = 10
 bar-load-foreground-0 = #55aa55
 bar-load-foreground-1 = #55aa55
 bar-load-foreground-2 = #F99157
@@ -106,7 +106,7 @@ interval = 2
 format = <label> <bar-used>
 label = 
 
-bar-used-width = 20
+bar-used-width = 10
 bar-used-foreground-0 = #55aa55
 bar-used-foreground-1 = #55aa55
 bar-used-foreground-2 = #f5a70a
@@ -138,7 +138,7 @@ ramp-volume-3 = 
 ramp-headphones-0 = 
 ramp-headphones-1 = 
 
-bar-volume-width = 20
+bar-volume-width = 10
 bar-volume-foreground-0 = #55aa55
 bar-volume-foreground-1 = #55aa55
 bar-volume-foreground-2 = #55aa55
@@ -197,7 +197,7 @@ format-discharging = <ramp-capacity> <label-discharging> <bar-capacity>
 label-charging = +
 label-discharging = -
 
-bar-capacity-width = 20
+bar-capacity-width = 10
 bar-capacity-foreground-0 = #55aa55
 bar-capacity-foreground-1 = #55aa55
 bar-capacity-foreground-2 = #55aa55
