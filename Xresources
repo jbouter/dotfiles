@@ -34,7 +34,7 @@ rofi.separator-style:                solid
 
 URxvt.depth:                32
 URxvt.geometry:             90x30
-URxvt.transparent:          true
+!URxvt.transparent:          true
 URxvt.shading:              10
 ! URxvt.urgentOnBell:         false
 ! URxvt.visualBell:           true
@@ -46,7 +46,7 @@ URxvt.borderWidth:          1
 URxvt.externalBorder:       1
 URxvt.borderColor:          #fac863
 URxvt.fading:               50
-URxvt.fadeColor:            #888888
+URxvt.fadeColor:            #000000
 
 ! Arrow movements
 URxvt.keysym.Control-Up:      \033[1;5A
@@ -85,7 +85,7 @@ URxvt.iso14755:      false
 URxvt.iso14755_52:    false
 
 ! Tango colour theme for rxvt-unicode
-URxvt.background: #293133
+URxvt.background: #121212
 URxvt.foreground: #d6cecc
 
 ! Black
