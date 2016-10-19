@@ -140,13 +140,14 @@ ramp-headphones-0 = 
 ramp-headphones-1 = 
 
 bar-volume-width = 10
-bar-volume-foreground-0 = #55aa55
-bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-0 = #ff5555
+bar-volume-foreground-1 = #f5a70a
 bar-volume-foreground-2 = #55aa55
 bar-volume-foreground-3 = #55aa55
 bar-volume-foreground-4 = #55aa55
-bar-volume-foreground-5 = #f5a70a
-bar-volume-foreground-6 = #ff5555
+bar-volume-foreground-5 = #55aa55
+bar-volume-foreground-6 = #55aa55
+
 bar-volume-gradient = false
 bar-volume-indicator = │
 bar-volume-indicator-font = 2
@@ -163,13 +164,14 @@ format = <label> <bar>
 label = 
 
 bar-width = 10
-bar-foreground-0 = #55aa55
-bar-foreground-1 = #55aa55
+bar-foreground-0 = #ff5555
+bar-foreground-1 = #f5a70a
 bar-foreground-2 = #55aa55
 bar-foreground-3 = #55aa55
 bar-foreground-4 = #55aa55
-bar-foreground-5 = #f5a70a
-bar-foreground-6 = #ff5555
+bar-foreground-5 = #55aa55
+bar-foreground-6 = #55aa55
+
 bar-gradient = false
 bar-indicator = │
 bar-indicator-font = 2
@@ -199,13 +201,14 @@ label-charging = +
 label-discharging = -
 
 bar-capacity-width = 10
-bar-capacity-foreground-0 = #55aa55
-bar-capacity-foreground-1 = #55aa55
+bar-capacity-foreground-0 = #ff5555
+bar-capacity-foreground-1 = #f5a70a
 bar-capacity-foreground-2 = #55aa55
 bar-capacity-foreground-3 = #55aa55
 bar-capacity-foreground-4 = #55aa55
-bar-capacity-foreground-5 = #f5a70a
-bar-capacity-foreground-6 = #ff5555
+bar-capacity-foreground-5 = #55aa55
+bar-capacity-foreground-6 = #55aa55
+
 bar-capacity-gradient = false
 bar-capacity-indicator = │
 bar-capacity-indicator-font = 2
