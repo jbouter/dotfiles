@@ -69,7 +69,7 @@ exec --no-startup-id /usr/bin/gnome-settings-daemon
 exec --no-startup-id nextcloud
 
 # NetworkManager Applet (because nmcli_dmenu seems broken a lot)
-exec --no-startup-id nm-applet
+exec --no-startup-id sleep 10 && nm-applet
 
 #
 # Set Keybindings
