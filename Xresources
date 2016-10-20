@@ -85,38 +85,38 @@ URxvt.pointerBlank:         true
 URxvt.iso14755:      false
 URxvt.iso14755_52:    false
 
-! Tango colour theme for rxvt-unicode
-URxvt.background: #121212
-URxvt.foreground: #d6cecc
+! special
+*.background:   #121212
+*.foreground:   #d6cecc
 
-! Black
-URxvt.color0: #2E3436
-URxvt.color8: #757773
+! black
+*.color0:       #282a2e
+*.color8:       #373b41
 
-! Red
-URxvt.color1: #CC0000
-URxvt.color9: #EF2929
+! red
+*.color1:       #a54242
+*.color9:       #cc6666
 
-! Green
-URxvt.color2: #4E9A06
-URxvt.color10: #8AE234
+! green
+*.color2:       #8c9440
+*.color10:      #b5bd68
 
-! Yellow
-URxvt.color3: #C4A000
-URxvt.color11: #FCE94F
+! yellow
+*.color3:       #de935f
+*.color11:      #f0c674
 
-! Blue
-URxvt.color4: #3465A4
-URxvt.color12: #729FCF
+! blue
+*.color4:       #5f819d
+*.color12:      #81a2be
 
-! Magenta
-URxvt.color5: #75507B
-URxvt.color13: #AD7FA8
+! magenta
+*.color5:       #85678f
+*.color13:      #b294bb
 
-! Cyan
-URxvt.color6: #06989A
-URxvt.color14: #34E2E2
+! cyan
+*.color6:       #5e8d87
+*.color14:      #8abeb7
 
-! White
-URxvt.color7: #D3D7CF
-URxvt.color15: #EEEEEC
+! white
+*.color7:       #707880
+*.color15:      #c5c8c6
