@@ -43,7 +43,7 @@ URxvt.saveLines:            4096
 URxvt.internalBorder:       0
 URxvt.lineSpace:            0
 URxvt.borderWidth:          0
-URxvt.externalBorder:       1
+URxvt.externalBorder:       0
 URxvt.borderColor:          #fac863
 URxvt.fading:               50
 URxvt.fadeColor:            #000000
@@ -56,7 +56,8 @@ URxvt.keysym.Control-Right:   \033[1;5C
 
 ! Fonts
 URxvt.allow_bold:           true
-URxvt.font:                 xft:iosevka term slab:pixelsize=18
+URxvt.font:                 xft:hack:size=12
+!URxvt.font:                 xft:iosevka term slab:pixelsize=18
 !URxvt.italicFont:           xft:iosevka term slab italic:pixelsize=20
 !URxvt.boldFont:             xft:iosevka term slab bold:pixelsize=20
 
