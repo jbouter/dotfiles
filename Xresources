@@ -44,7 +44,6 @@ URxvt.internalBorder:       0
 URxvt.lineSpace:            0
 URxvt.borderWidth:          0
 URxvt.externalBorder:       0
-URxvt.borderColor:          #fac863
 URxvt.fading:               50
 URxvt.fadeColor:            #000000
 
