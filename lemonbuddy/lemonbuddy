@@ -170,7 +170,7 @@ password = $mpd$1337
 
 interval = 2
 
-format-online = <icon-prev> <icon-stop> <toggle> <icon-next>  <icon-repeat>  <bar-progress> <label-time>  <label-song>
+format-online = <icon-prev> <icon-stop> <toggle> <icon-next> <bar-progress> <label-time>  <label-song>
 
 format-offline = <label-offline>
 
@@ -190,16 +190,17 @@ icon-random = 
 icon-repeat = 
 icon-repeatone = 1
 
-; Used to display the state of random/repeat/repeatone
-; Only applies if <icon-[random|repeat|repeatone]> is used
-toggle-on-foreground = #ff
-toggle-off-foreground = #55
-
 ; Only applies if <bar-progress> is used
-bar-progress-width = 45
-bar-progress-indicator = |
-bar-progress-fill = ─
-bar-progress-empty = ─
+bar-progress-width = 20
+bar-progress-gradient = false
+bar-progress-indicator = │
+bar-progress-indicator-font = 2
+bar-progress-indicator-foreground = #ff
+bar-progress-fill = ━
+bar-progress-fill-font = 2
+bar-progress-empty = ━
+bar-progress-empty-font = 2
+bar-progress-empty-foreground = #444444
 
 [module/backlight]
 type = internal/backlight
