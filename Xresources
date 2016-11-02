@@ -40,7 +40,7 @@ URxvt.shading:              10
 ! URxvt.visualBell:           true
 URxvt.loginShell:           true
 URxvt.saveLines:            4096
-URxvt.internalBorder:       0
+URxvt.internalBorder:       1
 URxvt.lineSpace:            0
 URxvt.borderWidth:          0
 URxvt.externalBorder:       0
@@ -84,38 +84,75 @@ URxvt.pointerBlank:         true
 URxvt.iso14755:      false
 URxvt.iso14755_52:    false
 
-! special
-*.background:   #121212
-*.foreground:   #d6cecc
 
-! black
-*.color0:       #282a2e
-*.color8:       #373b41
+! Urxvt Solarized Light colourscheme
+#define Ansi_0_Color #002831
+#define Ansi_1_Color #d11c24
+#define Ansi_10_Color #475b62
+#define Ansi_11_Color #536870
+#define Ansi_12_Color #708284
+#define Ansi_13_Color #5956ba
+#define Ansi_14_Color #819090
+#define Ansi_15_Color #fcf4dc
+#define Ansi_2_Color #738a05
+#define Ansi_3_Color #a57706
+#define Ansi_4_Color #2176c7
+#define Ansi_5_Color #c61c6f
+#define Ansi_6_Color #259286
+#define Ansi_7_Color #eae3cb
+#define Ansi_8_Color #001e27
+#define Ansi_9_Color #bd3613
+#define Background_Color #fcf4dc
+#define Bold_Color #475b62
+#define Cursor_Color #536870
+#define Cursor_Text_Color #eae3cb
+#define Foreground_Color #536870
+#define Selected_Text_Color #475b62
+#define Selection_Color #eae3cb
 
-! red
-*.color1:       #a54242
-*.color9:       #cc6666
+! Setting the colours
+Rxvt*color0:       Ansi_0_Color
+Rxvt*color1:       Ansi_1_Color
+Rxvt*color2:       Ansi_2_Color
+Rxvt*color3:       Ansi_3_Color
+Rxvt*color4:       Ansi_4_Color
+Rxvt*color5:       Ansi_5_Color
+Rxvt*color6:       Ansi_6_Color
+Rxvt*color7:       Ansi_7_Color
+Rxvt*color8:       Ansi_8_Color
+Rxvt*color9:       Ansi_9_Color
+Rxvt*color10:      Ansi_10_Color
+Rxvt*color11:      Ansi_11_Color
+Rxvt*color12:      Ansi_12_Color
+Rxvt*color13:      Ansi_13_Color
+Rxvt*color14:      Ansi_14_Color
+Rxvt*color15:      Ansi_15_Color
+Rxvt*colorBD:      Bold_Color
+Rxvt*colorIT:      Italic_Color
+Rxvt*colorUL:      Underline_Color
+Rxvt*foreground:   Foreground_Color
+Rxvt*background:   Background_Color
+Rxvt*cursorColor:  Cursor_Color
 
-! green
-*.color2:       #8c9440
-*.color10:      #b5bd68
-
-! yellow
-*.color3:       #de935f
-*.color11:      #f0c674
-
-! blue
-*.color4:       #5f819d
-*.color12:      #81a2be
-
-! magenta
-*.color5:       #85678f
-*.color13:      #b294bb
-
-! cyan
-*.color6:       #5e8d87
-*.color14:      #8abeb7
-
-! white
-*.color7:       #707880
-*.color15:      #c5c8c6
+XTerm*color0:      Ansi_0_Color
+XTerm*color1:      Ansi_1_Color
+XTerm*color2:      Ansi_2_Color
+XTerm*color3:      Ansi_3_Color
+XTerm*color4:      Ansi_4_Color
+XTerm*color5:      Ansi_5_Color
+XTerm*color6:      Ansi_6_Color
+XTerm*color7:      Ansi_7_Color
+XTerm*color8:      Ansi_8_Color
+XTerm*color9:      Ansi_9_Color
+XTerm*color10:     Ansi_10_Color
+XTerm*color11:     Ansi_11_Color
+XTerm*color12:     Ansi_12_Color
+XTerm*color13:     Ansi_13_Color
+XTerm*color14:     Ansi_14_Color
+XTerm*color15:     Ansi_15_Color
+XTerm*colorBD:     Bold_Color
+XTerm*colorIT:     Italic_Color
+XTerm*colorUL:     Underline_Color
+XTerm*foreground:  Foreground_Color
+XTerm*background:  Background_Color
+XTerm*cursorColor: Cursor_Color

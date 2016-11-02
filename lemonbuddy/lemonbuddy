@@ -13,12 +13,12 @@ dock = false
 width = 100%
 height = 27
 
-background = #ee222222
-foreground = #8a8a8a
-linecolor = #666
+background = #fdf6e3
+foreground = #268bd2
+linecolor = #fdf6e3
 
 border-bottom = 2
-border-bottom-color = #333
+border-bottom-color = #eee8d5
 
 spacing = 1
 lineheight = 1
@@ -46,9 +46,9 @@ dock = false
 width = 100%
 height = 27
 
-background = #ee222222
-foreground = #8a8a8a
-linecolor = #666
+background = #fdf6e3
+foreground = #268bd2
+linecolor = #fdf6e3
 
 border-bottom = 2
 border-bottom-color = #333
@@ -90,8 +90,8 @@ ws-icon-8 = 9;
 ws-icon-9 = 10;
 
 label-focused = %index% %icon%
-label-focused-background = #ee333333
-label-focused-underline= #cc333333
+label-focused-background = #eee8d5
+label-focused-underline= #93a1a1
 label-focused-padding = 2
 
 label-unfocused = %index% %icon%
@@ -143,13 +143,13 @@ ramp-headphones-0 = 
 ramp-headphones-1 = 
 
 bar-volume-width = 10
-bar-volume-foreground-0 = #ff5555
-bar-volume-foreground-1 = #f5a70a
-bar-volume-foreground-2 = #55aa55
-bar-volume-foreground-3 = #55aa55
-bar-volume-foreground-4 = #55aa55
-bar-volume-foreground-5 = #55aa55
-bar-volume-foreground-6 = #55aa55
+bar-volume-foreground-0 = #dc322f
+bar-volume-foreground-1 = #cb4b16
+bar-volume-foreground-2 = #859900
+bar-volume-foreground-3 = #859900
+bar-volume-foreground-4 = #859900
+bar-volume-foreground-5 = #859900
+bar-volume-foreground-6 = #859900
 
 bar-volume-gradient = false
 bar-volume-indicator = │
@@ -208,13 +208,13 @@ format = <label> <bar>
 label = 
 
 bar-width = 10
-bar-foreground-0 = #ff5555
-bar-foreground-1 = #f5a70a
-bar-foreground-2 = #55aa55
-bar-foreground-3 = #55aa55
-bar-foreground-4 = #55aa55
-bar-foreground-5 = #55aa55
-bar-foreground-6 = #55aa55
+bar-foreground-0 = #dc322f
+bar-foreground-1 = #cb4b16
+bar-foreground-2 = #859900
+bar-foreground-3 = #859900
+bar-foreground-4 = #859900
+bar-foreground-5 = #859900
+bar-foreground-6 = #859900
 
 bar-gradient = false
 bar-indicator = │
@@ -244,25 +244,6 @@ format-full = <ramp-capacity>
 
 label-charging = + (%percentage%)
 label-discharging = - (%percentage%)
-
-bar-capacity-width = 10
-bar-capacity-foreground-0 = #ff5555
-bar-capacity-foreground-1 = #f5a70a
-bar-capacity-foreground-2 = #55aa55
-bar-capacity-foreground-3 = #55aa55
-bar-capacity-foreground-4 = #55aa55
-bar-capacity-foreground-5 = #55aa55
-bar-capacity-foreground-6 = #55aa55
-
-bar-capacity-gradient = false
-bar-capacity-indicator = │
-bar-capacity-indicator-font = 2
-bar-capacity-indicator-foreground = #ff
-bar-capacity-fill = ━
-bar-capacity-fill-font = 2
-bar-capacity-empty = ━
-bar-capacity-empty-font = 2
-bar-capacity-empty-foreground = #444444
 
 ramp-capacity-0 = 
 ramp-capacity-1 = 
