@@ -14,7 +14,7 @@ width = 100%
 height = 27
 
 background = #ee222222
-foreground = #fac863
+foreground = #C0C0C0
 linecolor = #666
 
 border-bottom = 2
@@ -47,7 +47,7 @@ width = 100%
 height = 27
 
 background = #ee222222
-foreground = #fac863
+foreground = #C0C0C0
 linecolor = #666
 
 border-bottom = 2
