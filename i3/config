@@ -182,11 +182,11 @@ set $10  10
 
 # Set up the default workspace layout
 # urxvt on workspace 1
-exec --no-startup-id i3-msg 'workspace $1; exec urxvtc'
+exec --no-startup-id i3-msg 'workspace $1; exec urxvtc -e tmux'
 # Thunderbird in workspace 4
 exec --no-startup-id i3-msg 'workspace $4; exec thunderbird'
 # urxvt on workspace 5
-exec --no-startup-id i3-msg 'workspace $5; exec urxvtc'
+exec --no-startup-id i3-msg 'workspace $5; exec urxvtc -e tmux'
 # Start enpass in workspace 9
 exec --no-startup-id i3-msg 'workspace $9; exec enpass'
 # Thunar in workspace 10
