@@ -174,7 +174,7 @@ format-online = <icon-prev> <icon-stop> <toggle> <icon-next> <bar-progress> <lab
 
 format-offline = <label-offline>
 
-label-song = 𝄞 %artist% - %title%
+label-song =  %artist% - %title%
 
 label-offline =  mpd is offline
 
