@@ -108,7 +108,7 @@ alias flac2mp3='for a in ./*.flac; do ffmpeg -i "$a" -qscale:a 0 "${a[@]/%flac/m
 alias history='history -f'
 
 # SSH flurpee
-g () {
+tssh () {
         tmux new-window -n $1 "ssh $1"
 }
 
