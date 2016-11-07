@@ -15,6 +15,7 @@
 
 # Required Fonts
 * Fira fonts (otf-fira-mono and otf-fira-sans)
+* Monaco (AUR: ttf-monaco)
 * Iosevka (AUR: ttf-iosevka, ttf-iosevka-slab, ttf-iosevka-term, ttf-iosevka-term-slab)
 * Ubuntu Fonts (ttf-ubuntu-font-family-ib)
 * Font Awesome (used for icons in bar, AUR: ttf-font-awesome)
