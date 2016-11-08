@@ -102,13 +102,13 @@ URxvt.iso14755_52:    false
 #define Ansi_7_Color #eae3cb
 #define Ansi_8_Color #001e27
 #define Ansi_9_Color #bd3613
-#define Background_Color #fcf4dc
-#define Bold_Color #475b62
-#define Cursor_Color #536870
-#define Cursor_Text_Color #eae3cb
-#define Foreground_Color #536870
-#define Selected_Text_Color #475b62
-#define Selection_Color #eae3cb
+#define Background_Color #001e27
+#define Bold_Color #819090
+#define Cursor_Color #708284
+#define Cursor_Text_Color #002831
+#define Foreground_Color #708284
+#define Selected_Text_Color #819090
+#define Selection_Color #002831
 
 ! Setting the colours
 Rxvt*color0:       Ansi_0_Color

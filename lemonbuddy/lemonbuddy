@@ -14,7 +14,7 @@ width = 100%
 height = 27
 
 background = #002b36
-foreground = #b58900
+foreground = #839496
 linecolor = #002b36
 
 border-bottom = 2
@@ -46,12 +46,12 @@ dock = false
 width = 100%
 height = 27
 
-background = #fdf6e3
-foreground = #268bd2
-linecolor = #fdf6e3
+background = #002b36
+foreground = #839496
+linecolor = #002b36
 
 border-bottom = 2
-border-bottom-color = #333
+border-bottom-color = #586e75
 
 spacing = 1
 lineheight = 1
@@ -90,7 +90,7 @@ ws-icon-8 = 9;
 ws-icon-9 = 10;
 
 label-focused = %index% %icon%
-label-focused-background = #eee8d5
+label-focused-background = #073642
 label-focused-underline= #93a1a1
 label-focused-padding = 2
 
