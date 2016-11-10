@@ -16,5 +16,6 @@ case $1 in
   *)
     exit 0
     ;;
+esac
 
 mpc -h "\$mpd\$1337@127.0.0.1" $command
