@@ -50,7 +50,7 @@ URxvt.keysym.Control-Right:   \033[1;5C
 
 ! Fonts
 URxvt.allow_bold:           true
-URxvt.font:                 xft:Inconsolatazi4:size=14
+URxvt.font:                 xft:iosevka term slab:size=13
 !URxvt.font:                 xft:iosevka term slab:pixelsize=18
 !URxvt.italicFont:           xft:iosevka term slab italic:pixelsize=20
 !URxvt.boldFont:             xft:iosevka term slab bold:pixelsize=20
