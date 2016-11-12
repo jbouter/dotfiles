@@ -85,7 +85,7 @@ URxvt.iso14755_52:    false
 #define Ansi_1_Color #d11c24
 #define Ansi_10_Color #475b62
 #define Ansi_11_Color #536870
-#define Ansi_12_Color #708284
+#define Ansi_12_Color #2176c7
 #define Ansi_13_Color #5956ba
 #define Ansi_14_Color #819090
 #define Ansi_15_Color #fcf4dc
@@ -115,7 +115,7 @@ Rxvt*color5:       Ansi_5_Color
 Rxvt*color6:       Ansi_6_Color
 Rxvt*color7:       Ansi_7_Color
 Rxvt*color8:       Ansi_8_Color
-Rxvt*color9:       Ansi_9_Color
+xxvt*color9:       Ansi_9_Color
 Rxvt*color10:      Ansi_10_Color
 Rxvt*color11:      Ansi_11_Color
 Rxvt*color12:      Ansi_12_Color
