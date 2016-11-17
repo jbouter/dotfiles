@@ -8,4 +8,3 @@ set expandtab
 set autoindent
 set background=dark
 set nomodeline
-colorscheme solarized
