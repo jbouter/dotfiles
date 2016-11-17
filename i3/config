@@ -109,10 +109,10 @@ bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 5%- #decreas
 bindsym XF86AudioMute exec --no-startup-id amixer set Master toggle  # mute sound
 
 # MPD Audio controls
-bindsym XF86AudioPlay exec --no-startup-id ~/.config/i3/scripts/mpc.sh toggle
-bindsym XF86AudioStop exec --no-startup-id ~/.config/i3/scripts/mpc.sh stop
-bindsym XF86AudioPrev exec --no-startup-id ~/.config/i3/scripts/mpc.sh prev
-bindsym XF86AudioNext exec --no-startup-id ~/.config/i3/scripts/mpc.sh next
+bindsym XF86AudioPlay exec --no-startup-id mpc -h 127.0.0.1 toggle
+bindsym XF86AudioStop exec --no-startup-id mpc -h 127.0.0.1 stop
+bindsym XF86AudioPrev exec --no-startup-id mpc -h 127.0.0.1 prev
+bindsym XF86AudioNext exec --no-startup-id mpc -h 127.0.0.1 next
 
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec ~/.config/i3/scripts/brightness.sh +1 # increase screen brightness
