@@ -74,7 +74,7 @@ wm-restack = i3
 [module/title]
 type = internal/xwindow
 label = %title%
-label-maxlen = 50
+label-maxlen = 120
 
 [module/i3]
 type = internal/i3
