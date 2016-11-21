@@ -72,7 +72,6 @@ URxvt.internalBorder:       1
 URxvt.lineSpace:            0
 URxvt.borderWidth:          0
 URxvt.externalBorder:       0
-URxvt.fading:               50
 
 ! Arrow movements
 URxvt.keysym.Control-Up:      \033[1;5A
