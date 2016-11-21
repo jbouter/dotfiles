@@ -37,7 +37,6 @@ modules-left = i3
 modules-center = title
 
 tray-position = right
-tray-detached = true
 wm-restack = i3
 
 [bar/bottom_bar]
