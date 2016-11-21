@@ -37,6 +37,7 @@ modules-left = i3
 modules-center = title
 
 tray-position = right
+tray-detached = true
 wm-restack = i3
 
 [bar/bottom_bar]
@@ -67,7 +68,7 @@ font-1 = Iosevka Term Slab:size=10;0
 font-2 = FontAwesome:size=10;0
 
 modules-left = mpd
-modules-center = i3
+modules-center = filesystem
 modules-right = volume date
 
 wm-restack = i3
@@ -253,5 +254,27 @@ ramp-capacity-1 = 
 ramp-capacity-2 = 
 ramp-capacity-3 = 
 ramp-capacity-4 = 
+
+[module/filesystem]
+type = internal/fs
+
+; Mountpoints to display
+mount-0 = /
+mount-1 = /home
+
+; Seconds to sleep between updates
+; Default: 30
+interval = 10
+
+; Display fixed precision values 
+; Default: false
+fixed-values = true
+
+; Spacing between entries
+; Default: 2
+spacing = 4
+
+format-mounted = <label-mounted>
+label-mounted =  %mountpoint% (%percentage_used%)
 
 ; vim:ft=dosini
