@@ -39,7 +39,7 @@ gaps outer 5 # pxls between edge of screen
 #
 
 # Lemonbuddy bar
-exec_always --no-startup-id ~/.config/lemonbuddy/launch.sh
+exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # urxvt daemon
 exec --no-startup-id urxvtd -q -f -o

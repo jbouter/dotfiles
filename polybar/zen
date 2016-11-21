@@ -7,18 +7,51 @@
 ;
 ;=====================================================
 
-[bar/zen]
+[bar/top_bar]
 ; monitor = LVDS-0
 dock = false
 width = 100%
 height = 27
 
-background = #002b36
-foreground = #839496
-linecolor = #002b36
+background = #C0C0C0
+foreground = #181818
+linecolor = #C0C0C0
 
 border-bottom = 2
-border-bottom-color = #586e75
+border-bottom-color = #A0A0A0
+
+spacing = 1
+lineheight = 1
+
+padding-left = 0
+padding-right = 2
+
+module-margin-left = 1
+module-margin-right = 2
+
+font-0 = Noto Sans UI:size=10;1
+font-1 = Iosevka Term Slab:size=10;0
+font-2 = FontAwesome:size=10;0
+
+modules-left = i3
+modules-center = title
+
+tray-position = right
+wm-restack = i3
+
+[bar/bottom_bar]
+; monitor = LVDS-0
+dock = false
+width = 100%
+height = 27
+
+background = #C0C0C0
+foreground = #181818
+linecolor = #C0C0C0
+
+border-top= 2
+border-top-color = #A0A0A0
+bottom = true
 
 spacing = 1
 lineheight = 1
@@ -34,44 +67,14 @@ font-1 = Iosevka Term Slab:size=10;0
 font-2 = FontAwesome:size=10;0
 
 modules-left = mpd
-modules-center = i3
 modules-right = volume backlight battery date
 
-tray-position = right
 wm-restack = i3
 
-[bar/mantra]
-; monitor = LVDS-0
-dock = false
-width = 100%
-height = 27
-
-background = #002b36
-foreground = #839496
-linecolor = #002b36
-
-border-bottom = 2
-border-bottom-color = #586e75
-
-spacing = 1
-lineheight = 1
-
-padding-left = 0
-padding-right = 2
-
-module-margin-left = 1
-module-margin-right = 2
-
-font-0 = Noto Sans UI:size=10;1
-font-1 = Iosevka Term Slab:size=10;0
-font-2 = FontAwesome:size=10;0
-
-modules-left = mpd
-modules-center = i3
-modules-right = volume date
-
-tray-position = right
-wm-restack = i3
+[module/title]
+type = internal/xwindow
+label = %title%
+label-maxlen = 50
 
 [module/i3]
 type = internal/i3
@@ -90,8 +93,8 @@ ws-icon-8 = 9;
 ws-icon-9 = 10;
 
 label-focused = %index% %icon%
-label-focused-background = #073642
-label-focused-underline= #93a1a1
+label-focused-background = #888888
+label-focused-underline= #787878
 label-focused-padding = 2
 
 label-unfocused = %index% %icon%
