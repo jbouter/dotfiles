@@ -1,5 +1,6 @@
 # Required software
 * nextcloud (daemon gets started in i3/config)
+* polybar (top and bottom bars. AUR: polybar)
 * rofi (or dmenu, but then you need to change the config around)
 * chromium (used as mod+b browser launcher)
 * feh (for setting wallpaper)
@@ -9,15 +10,12 @@
 * redshift (to ease your eyes after it gets dark)
 * rxvt-unicode (terminal emulator, basic config is in urxvt directory)
 * compton
-* Teiler (AUR: teiler-git)
+* Teiler (For screenshotting. AUR: teiler-git)
 * i3lock-fancy (AUR: i3lock-fancy-git)
 * YeaLink Monitor (github: https://github.com/fdev/snippets/blob/master/yealink-monitor.py)
 
 # Required Fonts
-* Fira fonts (otf-fira-mono and otf-fira-sans)
-* Meslo Fonts (ttf-meslo-fonts-ibx)
 * Iosevka (AUR: ttf-iosevka, ttf-iosevka-slab, ttf-iosevka-term, ttf-iosevka-term-slab)
-* Ubuntu Fonts (ttf-ubuntu-font-family-ib)
 * Font Awesome (used for icons in bar, AUR: ttf-font-awesome)
 * Noto Sans (ttf-noto-fonts-ib)
 
@@ -26,18 +24,21 @@ There are three basic directories. My installation is as follows
 
 
 i3 is symlinked to ~/.config/i3
-lemonbuddy is symlinked to ~/.config/lemonbuddy
+polybar is symlinked to ~/.config/polybar
 Xresources is symlinked to ~/.Xresources
 vimrc is symlinked to ~/.vimrc
+vim is symlinked to ~/.vim
 zshrc is symlinked to ~/.zshrc
 
 As such:
 ```
-ln -sf i3 ~/.config/i3
-ln -sf lemonbuddy ~/.config/lemonbuddy
-ln -sf Xresources ~/.Xresources
-ln -sf vimrc ~/.vimrc
-ln -sf zshrc ~/.zshrc
+cd
+ln -sf ~/documents/git/github/kyentei/dotfiles/i3 ~/.config/i3
+ln -sf ~/documents/git/github/kyentei/dotfiles/polybar ~/.config/polybar
+ln -sf ~/documents/git/github/kyentei/dotfiles/Xresources ~/.Xresources
+ln -sf ~/documents/git/github/kyentei/dotfiles/vimrc ~/.vimrc
+ln -sf ~/documents/git/github/kyentei/dotfiles/vim ~/.vim
+ln -sf ~/documents/git/github/kyentei/dotfiles/zshrc ~/.zshrc
 ```
 
 If the setwallpaper.sh script can't properly set your wallpaper, this may be because the script is unaware of your $DISPLAY.

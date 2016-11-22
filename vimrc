@@ -9,6 +9,6 @@ set expandtab
 set autoindent
 set background=dark
 set nomodeline
-autocmd vimenter * NERDTree
 execute pathogen#infect()
 filetype plugin indent on
+map <C-n> :NERDTreeToggle<CR>
