@@ -3,7 +3,7 @@
 !-------------------------------------------------------------------------------
 
 ! Import the colourscheme
-#include "/home/jeffrey/documents/git/github/iTerm2-Color-Schemes/xrdb/Thayer Bright.xrdb"
+#include "/home/jeffrey/documents/git/github/iTerm2-Color-Schemes/xrdb/Brogrammer.xrdb"
 
 ! Set the actual colours
 URxvt.color0:       Ansi_0_Color
