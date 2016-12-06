@@ -103,21 +103,19 @@ ws-icon-8 = 9;
 ws-icon-9 = 10;
 
 label-focused = %index% %icon%
-label-focused-background = #888888
-label-focused-underline= #787878
+label-focused-underline= #888888
 label-focused-padding = 2
 
 label-unfocused = %index% %icon%
 label-unfocused-padding = 2
 
 label-urgent = %index% %icon%
-label-urgent-background = #bd2c40
+label-urgent-underline= #bd2c40
 label-urgent-padding = 2
 
 label-visible = %index% %icon%
-label-visible-foreground = #444
+label-visible-background= #444
 label-visible-padding = 2
-
 
 [module/date]
 type = internal/date
