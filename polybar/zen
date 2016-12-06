@@ -156,9 +156,9 @@ label-volume-foreground = ${BAR.foreground}
 
 label-muted = %{F#66} sound muted
 
-ramp-volume-0 = 🔈
-ramp-volume-1 = 🔉
-ramp-volume-2 = 🔊
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
 
 ramp-headphones-0 = 
 ramp-headphones-1 = 
