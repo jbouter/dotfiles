@@ -206,8 +206,7 @@ type = internal/fs
 ; Mountpoints to display
 mount-0 = /
 mount-1 = /home
-mount-2 = /data
-mount-3 = /data/games
+mount-2 = /data/games
 
 ; Seconds to sleep between updates
 ; Default: 30
