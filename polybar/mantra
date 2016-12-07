@@ -30,11 +30,12 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = Iosevka Term Slab:size=8;0
-font-1 = fixed:pixelsize=10;0
-font-2 = unifont:size=6:heavy:fontformat=truetype;-2
-font-3 = siji:pixelsize=10;0
-font-4 = FontAwesome:size=10;0
+font-0 = NotoSansUI:size=8;0
+font-1 = Iosevka Term Slab:size=8;0
+font-2 = fixed:pixelsize=10;0
+font-3 = unifont:size=6:heavy:fontformat=truetype;-2
+font-4 = siji:pixelsize=10;0
+font-5 = FontAwesome:size=10;0
 
 modules-left = i3
 modules-center = title
@@ -71,11 +72,12 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = Iosevka Term Slab:size=8;0
-font-1 = fixed:pixelsize=10;0
-font-2 = unifont:size=6:heavy:fontformat=truetype;-2
-font-3 = siji:pixelsize=10;0
-font-4 = FontAwesome:size=10;0
+font-0 = NotoSansUI:size=8;0
+font-1 = Iosevka Term Slab:size=8;0
+font-2 = fixed:pixelsize=10;0
+font-3 = unifont:size=6:heavy:fontformat=truetype;-2
+font-4 = siji:pixelsize=10;0
+font-5 = FontAwesome:size=10;0
 
 modules-left = mpd
 modules-center = filesystem
@@ -105,7 +107,7 @@ ws-icon-8 = 9;
 ws-icon-9 = 10;
 
 label-focused = %index% %icon%
-label-focused-underline= #888888
+label-focused-underline= #008ed4
 label-focused-padding = 2
 
 label-unfocused = %index% %icon%
