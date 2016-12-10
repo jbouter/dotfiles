@@ -19,7 +19,7 @@ height = 27
 offset-x = 0
 offset-y = 0
 
-background = #ee222222
+background = #131313
 foreground = #dfdfdf
 
 overline-size = 2
@@ -62,7 +62,7 @@ height = 27
 offset-x = 0
 offset-y = 0
 
-background = #ee222222
+background = #131313
 foreground = #dfdfdf
 
 overline-size = 2
