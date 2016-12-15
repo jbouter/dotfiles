@@ -78,8 +78,7 @@ URxvt.keysym.Control-Right:   \033[1;5C
 
 ! Fonts
 URxvt.allow_bold:           true
-URxvt.font:                 xft:Inconsolata:size=13,xft:Inconsolata for Powerline:size=13
-URxvt.boldFont:             xft:Inconsolata:bold:size=13,xft:Inconsolata for Powerline:bold:size=13
+URxvt.font:                 xft:Terminus:size=13
 
 ! Fix font space
 URxvt*letterSpace: -1
