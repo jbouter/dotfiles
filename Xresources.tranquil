@@ -35,7 +35,7 @@ URxvt.cursorUnderline:      true
 ! Xft settings
 !-------------------------------------------------------------------------------
 
-Xft.dpi: 141
+Xft.dpi: 192
 Xft.antialias: true
 Xft.hinting: true
 Xft.rgba: rgb
@@ -78,7 +78,7 @@ URxvt.keysym.Control-Right:   \033[1;5C
 
 ! Fonts
 URxvt.allow_bold:           true
-URxvt.font:                 xft:Terminus:size=13
+URxvt.font:                 xft:Terminus:size=16
 
 ! Fix font space
 URxvt*letterSpace: -1
