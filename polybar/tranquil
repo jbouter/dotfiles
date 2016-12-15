@@ -154,6 +154,11 @@ label =  %gb_used%/%gb_total%
 [module/volume]
 type = internal/volume
 
+master-mixer = Master
+speaker-mixer = Speaker
+headphone-mixer = Headphone
+headphone-id = 15
+
 format-volume = <ramp-volume> <bar-volume>
 
 label-volume-foreground = ${BAR.foreground}
@@ -231,7 +236,7 @@ bar-empty = ─
 
 ; Use the following command to list available cards:
 ; $ ls -1 /sys/class/backlight/
-card = acpi_video0
+card = intel_backlight
 
 [module/battery]
 type = internal/battery
