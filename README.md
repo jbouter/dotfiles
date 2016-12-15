@@ -16,6 +16,7 @@
 
 # Required Fonts
 * Iosevka (AUR: ttf-iosevka, ttf-iosevka-slab, ttf-iosevka-term, ttf-iosevka-term-slab)
+* Inconsolata (IB: otf-inconsolata-pwl-ibx, otf-inconsolatazi4-ibx)
 * Font Awesome (used for icons in bar, AUR: ttf-font-awesome)
 * Noto Sans (ttf-noto-fonts-ib)
 
