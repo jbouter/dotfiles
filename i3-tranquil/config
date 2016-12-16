@@ -53,6 +53,7 @@ exec --no-startup-id sh ~/.config/i3/scripts/setwallpaper.sh
 # Set Mouse settings
 exec --no-startup-id xinput set-prop "DLL075B:01 06CB:76AF Touchpad" "libinput Tapping Enabled" 1
 exec --no-startup-id xinput set-prop "DLL075B:01 06CB:76AF Touchpad" "libinput Accel Speed" 1
+exec --no-startup-id xinput set-prop "DLL075B:01 06CB:76AF Touchpad" "libinput Natural Scrolling Enabled" 1
 
 # RedShift: ease the eyes
 exec --no-startup-id redshift -c ~/.config/i3/conf.d/redshift.conf
@@ -92,7 +93,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+Shift+s exec ~/.config/i3/scripts/shutdown_menu
 
 # start rofi(a program launcher)
-bindsym $mod+d exec rofi -show run -lines 3 -eh 1 -width 40 -padding 5 -opacity 95 -hide-scrollbar -separator-style "none" -bw 0 -font "Noto Sans UI 12"
+bindsym $mod+d exec rofi -show run -lines 3 -eh 1 -width 40 -padding 5 -opacity 95 -hide-scrollbar -separator-style "none" -bw 0 -font "Iosevka Term Slab 24"
 
 # Bind mod+ctrl+l to lockscreen
 bindsym $mod+Ctrl+l exec sh ~/.config/i3/scripts/i3lock.sh
