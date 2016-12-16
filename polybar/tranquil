@@ -194,12 +194,12 @@ label-song =  %artist% - %title%
 label-offline =  mpd is offline
 
 ; Only applies if <icon-X> is used
-icon-prev = 
+icon-prev = 
 icon-seekb = 
-icon-stop = 
-icon-play = 
-icon-pause = 
-icon-next = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
 icon-seekf = 
 
 icon-random = 
