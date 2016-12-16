@@ -88,7 +88,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+Shift+s exec ~/.config/i3/scripts/shutdown_menu
 
 # start rofi(a program launcher)
-bindsym $mod+d exec rofi -show run -lines 3 -eh 1 -width 40 -padding 5 -opacity 95 -hide-scrollbar -separator-style "none" -bw 0 -font "Noto Sans UI 12"
+bindsym $mod+d exec rofi -show run -lines 3 -eh 1 -hide-scrollbar -separator-style "none" -bw 0 
 
 # Bind mod+ctrl+l to lockscreen
 bindsym $mod+Ctrl+l exec sh ~/.config/i3/scripts/i3lock.sh
