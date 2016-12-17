@@ -1,2 +1,2 @@
 #!/bin/bash
-i3lock -i "/home/jeffrey/documents/nextcloud/wallpapers/abstract_pyramid.png"
+i3lock-fancy
