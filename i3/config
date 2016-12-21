@@ -88,12 +88,12 @@ bindsym $mod+Shift+q kill
 bindsym $mod+Shift+s exec ~/.config/i3/scripts/shutdown_menu
 
 # start rofi(a program launcher)
-bindsym $mod+d exec rofi -show run -lines 3 -eh 1 -hide-scrollbar -separator-style "none" -bw 0 
+bindsym $mod+d exec rofi -show run -lines 3 -eh 1 -hide-scrollbar -separator-style "none" -bw 0
 
 # Bind mod+ctrl+l to lockscreen
-bindsym $mod+Ctrl+l exec sh ~/.config/i3/scripts/i3lock.sh
+bindsym $mod+Ctrl+l exec i3lock -i /usr/share/backgrounds/lockscreen.png
 # Start a timer to automatically lock
-exec --no-startup-id xautolock -time 60 -locker '~/.config/i3/scripts/i3lock.sh'
+exec --no-startup-id xautolock -time 60 -locker 'i3lock -i /usr/share/backgrounds/lockscreen.png'
 
 # Bind mod+b to browser
 bindsym $mod+b exec google-chrome-stable
