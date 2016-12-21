@@ -87,7 +87,7 @@ URxvt.keysym.Control-Right:   \033[1;5C
 
 ! Fonts
 URxvt.allow_bold:           true
-URxvt.font:                 xft:Terminus:size=13
+URxvt.font:                 xft:Iosevka Term Slab:size=11
 
 ! Fix font space
 URxvt*letterSpace: -1
