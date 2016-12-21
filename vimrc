@@ -5,6 +5,7 @@ syntax enable
 set nowrap
 set tabstop=2
 set shiftwidth=2
+set so=5
 set expandtab
 set autoindent
 set background=dark
