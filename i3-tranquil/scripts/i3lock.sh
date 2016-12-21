@@ -1,2 +1,2 @@
 #!/bin/bash
-i3lock-fancy
+i3lock -i /usr/share/backgrounds/lockscreen.png
