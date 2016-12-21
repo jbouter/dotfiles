@@ -1,5 +1,5 @@
 # Required software
-* nextcloud (daemon gets started in i3/config)
+* nextcloud-client (daemon gets started in i3/config)
 * polybar (top and bottom bars. AUR: polybar)
 * rofi (or dmenu, but then you need to change the config around)
 * chromium (used as mod+b browser launcher)
