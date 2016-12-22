@@ -8,7 +8,7 @@ fi
 
 
 # Set the wallpaper
-DISPLAY=$SETDISPLAY feh --bg-fill "/home/jeffrey/documents/nextcloud/wallpapers/abstract_pyramid.jpg"
+DISPLAY=$SETDISPLAY feh --bg-fill "/home/jeffrey/documents/nextcloud/wallpapers/starry-space-sky.png"
 
 # Set screen blanking to 1hr
 DISPLAY=$SETDISPLAY xset s 3600 3600 &
