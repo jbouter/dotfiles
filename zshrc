@@ -95,6 +95,9 @@ export LESS_TERMCAP_se=$'\E[0m'        # reset reverse video
 export LESS_TERMCAP_us=$'\E[1;32m'     # begin underline
 export LESS_TERMCAP_ue=$'\E[0m'        # reset underline
 
+# Virsh alias
+alias virsh='virsh -c qemu:///system'
+
 # mount alias
 alias mountp='mount | column -t'
 
@@ -106,6 +109,8 @@ alias flac2mp3='for a in ./*.flac; do ffmpeg -i "$a" -qscale:a 0 "${a[@]/%flac/m
 
 # History alias
 alias history='history -f'
+
+alias grep='rg'
 
 # SSH flurpee
 tssh () {
