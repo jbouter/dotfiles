@@ -110,6 +110,12 @@ alias duh='du -hsx * | sort -hr | head -n 6'
 # Flac to MP3
 alias flac2mp3='for a in ./*.flac; do ffmpeg -i "$a" -qscale:a 0 "${a[@]/%flac/mp3}"; done'
 
+# Remove obsolete git branches in repo
+alias git_clean_obsolete='git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d'
+
+# Stepping stone alias
+alias step1='ssh step1 -tt "tmux a"'
+
 # History alias
 alias history='history -f'
 
