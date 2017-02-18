@@ -47,5 +47,5 @@ zstyle ':prompt:grml:left:setup' items rc virtual-env change-root user at host p
 
 # Modify the prompt
 prompt off
-source ~/documents/git/github/zsh-git-prompt/zshrc.sh
+source /usr/local/share/zsh-git-prompt/zshrc.sh
 PS1='%B%m %~%b$(git_super_status) %# '
