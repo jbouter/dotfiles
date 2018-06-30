@@ -41,12 +41,12 @@ set $right l
 set $term urxvtc
 # Your preferred application launcher
 set $menu dmenu_run
-set $lock swaylock -i /usr/share/backgrounds/f28/default/normalish/f28.png --scaling fill
+set $lock swaylock -i /home/jeffrey/Documents/kn0x/wallpapers/3840x2160/wallhaven-656798.jpg --scaling fill
 
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/f28/default/normalish/f28.png fill
+output * bg /home/jeffrey/Documents/kn0x/wallpapers/3840x2160/wallhaven-663453.jpg fill
 #
 # Example configuration:
 #
