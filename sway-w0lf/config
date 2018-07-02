@@ -16,8 +16,8 @@ font pango:Overpass Mono 18
 
 # Configure window borders
 for_window [class="^.*"] border pixel 0
-gaps inner 10 # pxls between containers 
-gaps outer 5 # pxls between edge of screen
+gaps inner 2 # pxls between containers 
+gaps outer 0 # pxls between edge of screen
 
 # Configure brightness
 bindsym XF86MonBrightnessUp exec ~/.config/sway/scripts/brightness.sh +500 # increase screen brightness
