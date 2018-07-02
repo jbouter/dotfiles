@@ -71,6 +71,8 @@ output * bg /home/jeffrey/Documents/kn0x/wallpapers/3840x2160/wallhaven-663453.j
 
 input "4152:5890:SteelSeries_SteelSeries_Rival_100_Gaming_" {
   natural_scroll enabled
+  accel_profile adaptive
+  pointer_accel 0.3
 }
 
 input "1739:30383:DLL075B:01_06CB:76AF_To" {
@@ -78,6 +80,8 @@ input "1739:30383:DLL075B:01_06CB:76AF_To" {
   tap enabled
   natural_scroll enabled
   middle_emulation enabled
+  accel_profile adaptive
+  pointer_accel 0.3
 }
 
 ### Key bindings
