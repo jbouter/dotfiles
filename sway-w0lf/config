@@ -10,6 +10,7 @@ exec /var/lib/snapd/snap/bin/nextcloud-client
 exec EXPORT SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
 exec urxvtd -q -f -o
 exec . ~/.xsessionrc
+exec localectl set-keymap us-altgr-intl
 
 # Configure font
 font pango:Overpass Mono 18
