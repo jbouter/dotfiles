@@ -9,7 +9,6 @@ exec setxkbmap -layout us -variant altgr-intl
 exec xrdb ~/.Xresources
 exec /var/lib/snapd/snap/bin/nextcloud-client
 exec urxvtd -q -f -o
-exec . ~/.xsessionrc
 
 # Configure font
 font pango:Overpass Mono 10
@@ -49,6 +48,8 @@ output * bg /home/jeffrey/Documents/kn0x/wallpapers/3840x2160/wallhaven-663453.j
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
+output DP-1 resolution 1920x1200 position 0,0 workspace 1
+output DVI-D-1 resolution 1920x1200 position 1920,0 workspace 2
 
 ### Input configuration
 #
