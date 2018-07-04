@@ -5,6 +5,7 @@
 # Read `man 5 sway` for a complete reference.
 
 # Autostart applications
+exec setxkbmap -layout us -variant altgr-intl
 exec xrdb ~/.Xresources
 exec /var/lib/snapd/snap/bin/nextcloud-client
 exec urxvtd -q -f -o

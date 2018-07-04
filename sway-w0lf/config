@@ -5,6 +5,7 @@
 # Read `man 5 sway` for a complete reference.
 
 # Autostart applications
+exec setxkbmap -layout us -variant altgr-intl
 exec xrdb ~/.Xresources
 exec /var/lib/snapd/snap/bin/nextcloud-client
 exec EXPORT SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
