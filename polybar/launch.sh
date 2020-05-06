@@ -7,7 +7,14 @@ killall -q polybar
 while pgrep -x polybar >/dev/null; do sleep 1; done
 
 # Launch bar1 and bar2
-polybar top_bar -c ~/.config/polybar/$(hostname) &
-polybar bottom_bar -c ~/.config/polybar/$(hostname) &
+if type "xrandr"; then
+  for m in $(xrandr --query | grep " connected" | cut -d' ' -f1); do
+    MONITOR=$m polybar top_bar -c ~/.config/polybar/$(hostname) &
+    MONITOR=$m polybar bottom_bar -c ~/.config/polybar/$(hostname) &
+  done
+else
+  polybar top_bar -c ~/.config/polybar/$(hostname) &
+  polybar bottom_bar -c ~/.config/polybar/$(hostname) &
+fi
 
 echo "Bars launched..."
