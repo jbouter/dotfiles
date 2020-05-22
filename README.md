@@ -43,5 +43,5 @@ ln -sf ~/Workspace/github.com/jbouter/dotfiles/alacritty ~/.config/alacritty
 ## Configure the ssh environment variable
 
 ```bash
-echo "SSH_AUTH_SOCK=/run/user/1000/keyring/ssh" | sudo tee -a /etc/environment
+printf "SSH_AUTH_SOCK=/run/user/1000/keyring/ssh\nXKB_DEFAULT_LAYOUT=us\nXKB_DEFAULT_VARIANT=altgr-intl\n" | sudo tee -a /etc/environment
 ```
