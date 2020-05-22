@@ -40,7 +40,7 @@ exec --no-startup-id /usr/lib/gsd-xsettings
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=secrets
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=ssh
 exec --no-startup-id aa-notify -p -s 1 -w 60 -f /var/log/audit/audit.log
-exec --no-startup-id redshift -l 53.21:6.56 -t 6400:3400 -m wayland
+exec --no-startup-id redshift -l 53.21:6.56 -t 6500:3500 -m wayland
 exec --no-startup-id dunst
 exec --no-startup-id nextcloud
 exec --no-startup-id org.telegram.desktop -startintray
