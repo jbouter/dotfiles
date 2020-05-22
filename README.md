@@ -1,49 +1,47 @@
-# Required software
-* nextcloud-client (daemon gets started in i3/config)
-* polybar (top and bottom bars. AUR: polybar)
-* rofi (or dmenu, but then you need to change the config around)
-* chromium (used as mod+b browser launcher)
-* feh (for setting wallpaper)
-* scrot (for screenshotting)
-* xautolock (for automatic screenlocking)
-* alsa-utils (for volume control)
-* redshift (to ease your eyes after it gets dark)
-* rxvt-unicode (terminal emulator, basic config is in urxvt directory)
-* compton
-* Teiler (For screenshotting. AUR: teiler-git)
-* i3lock-fancy (AUR: i3lock-fancy-git)
-* YeaLink Monitor (github: https://github.com/fdev/snippets/blob/master/yealink-monitor.py)
+## Required software
 
-# Required Fonts
-* Iosevka (AUR: ttf-iosevka, ttf-iosevka-slab, ttf-iosevka-term, ttf-iosevka-term-slab)
-* Inconsolata (IB: otf-inconsolata-pwl-ibx, otf-inconsolatazi4-ibx)
-* Font Awesome (used for icons in bar, AUR: ttf-font-awesome)
-* Noto Sans (ttf-noto-fonts-ib)
+### GNOME/graphical dependencies
 
-# Installation of i3 + urxvt theme
-There are three basic directories. My installation is as follows
+```bash
+sudo pacman -S gnome-keyring gnome-settings-daemon networkmanager seahorse eog thunar nextcloud-client
+```
 
+### Sway etc
+```bash
+sudo pacman -S sway swaybg swaylock swayidle feh brightnessctl acpi flatpak
+```
 
-i3 is symlinked to ~/.config/i3
-polybar is symlinked to ~/.config/polybar
-Xresources is symlinked to ~/.Xresources
-vimrc is symlinked to ~/.vimrc
-vim is symlinked to ~/.vim
-zshrc is symlinked to ~/.zshrc
+### Flatpak
+
+```bash
+flatpak install org.telegram.desktop
+```
+
+### sddm
+```bash
+sudo pacman -S sddm
+yay -S archlinux-themes-sddm
+sudo systemctl enable sddm
+```
+
+### Fonts
+
+```bash
+sudo pacman -S ttf-hack ttf-font-awesome
+```
+
+## Enabling the config
 
 As such:
-```
-cd
-ln -sf ~/documents/git/github/kyentei/dotfiles/i3 ~/.config/i3
-ln -sf ~/documents/git/github/kyentei/dotfiles/polybar ~/.config/polybar
-ln -sf ~/documents/git/github/kyentei/dotfiles/Xresources ~/.Xresources
-ln -sf ~/documents/git/github/kyentei/dotfiles/vimrc ~/.vimrc
-ln -sf ~/documents/git/github/kyentei/dotfiles/vim ~/.vim
-ln -sf ~/documents/git/github/kyentei/dotfiles/zshrc ~/.zshrc
+
+```bash
+ln -sf ~/Workspace/github.com/jbouter/dotfiles/sway ~/.config/sway
+ln -sf ~/Workspace/github.com/jbouter/dotfiles/i3blocks ~/.config/i3blocks
+ln -sf ~/Workspace/github.com/jbouter/dotfiles/alacritty ~/.config/alacritty
 ```
 
-If the setwallpaper.sh script can't properly set your wallpaper, this may be because the script is unaware of your $DISPLAY.
-In order to make this work, try the following whilst logged in to a graphical desktop:
-```
-echo $DISPLAY > ~/.config/i3/conf.d/display.txt
+## Configure the ssh environment variable
+
+```bash
+echo "SSH_AUTH_SOCK=/run/user/1000/keyring/ssh" | sudo tee -a /etc/environment
 ```
