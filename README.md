@@ -9,6 +9,7 @@ sudo pacman -S gnome-keyring gnome-settings-daemon networkmanager seahorse eog t
 ### Sway etc
 ```bash
 sudo pacman -S sway swaybg swaylock swayidle feh brightnessctl acpi flatpak
+yay -S reshift-wayland-git
 ```
 
 ### Flatpak
