@@ -8,7 +8,7 @@ sudo pacman -S gnome-keyring gnome-settings-daemon networkmanager seahorse eog t
 
 ### Sway etc
 ```bash
-sudo pacman -S sway swaybg swaylock swayidle feh brightnessctl acpi flatpak
+sudo pacman -S sway swaybg swaylock swayidle feh brightnessctl acpi flatpak dunst
 yay -S reshift-wayland-git
 ```
 
@@ -39,6 +39,7 @@ As such:
 ln -sf ~/Workspace/github.com/jbouter/dotfiles/sway ~/.config/sway
 ln -sf ~/Workspace/github.com/jbouter/dotfiles/i3blocks ~/.config/i3blocks
 ln -sf ~/Workspace/github.com/jbouter/dotfiles/alacritty ~/.config/alacritty
+ln -sf ~/Workspace/github.com/jbouter/dotfiles/dunst ~/.config/dunst
 ```
 
 ## Configure the environment variables
