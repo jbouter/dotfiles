@@ -41,7 +41,9 @@ ln -sf ~/Workspace/github.com/jbouter/dotfiles/i3blocks ~/.config/i3blocks
 ln -sf ~/Workspace/github.com/jbouter/dotfiles/alacritty ~/.config/alacritty
 ```
 
-## Configure the ssh environment variable
+## Configure the environment variables
+
+The following command will make SSH work with gnome-keyring, and set the keyboard layout to US International with Alt-GR dead keys
 
 ```bash
 printf "SSH_AUTH_SOCK=/run/user/1000/keyring/ssh\nXKB_DEFAULT_LAYOUT=us\nXKB_DEFAULT_VARIANT=altgr-intl\n" | sudo tee -a /etc/environment
