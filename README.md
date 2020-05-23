@@ -3,12 +3,12 @@
 ### GNOME/graphical dependencies
 
 ```bash
-sudo pacman -S gnome-keyring gnome-settings-daemon networkmanager seahorse eog thunar nextcloud-client
+sudo pacman -S gnome-keyring gnome-settings-daemon networkmanager seahorse eog thunar nextcloud-client pavucontrol
 ```
 
 ### Sway etc
 ```bash
-sudo pacman -S sway swaybg swaylock swayidle feh brightnessctl acpi flatpak dunst
+sudo pacman -S sway swaybg swaylock swayidle feh brightnessctl acpi flatpak dunst waybar playerctl
 yay -S reshift-wayland-git
 ```
 
