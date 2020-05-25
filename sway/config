@@ -21,12 +21,10 @@ set $term alacritty
 set $menu dmenu_path | dmenu | xargs swaymsg exec --
 
 # Fonts
-font pango:Hack Regular, FontAwesome Regular 10
+font pango:Hack Regular 10, FontAwesome5Free Regular 10, FontAwesome5Free Solid 10, FontAwesome5Brands Regular 10
 
 # Set gaps specific stuff
-#for_window [class="*"] border none
 default_border none
-#smart_gaps on # Only use gaps when >1 container
 gaps inner 10
 gaps outer 5
 
@@ -67,6 +65,8 @@ exec --no-startup-id swayidle -w \
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
+#output DP-2 resolution 2560x1440 position 0,0
+#output eDP-1 resolution 1920x1080 position 0,1440
 
 ### Idle configuration
 #
