@@ -47,7 +47,7 @@ exec --no-startup-id org.telegram.desktop -startintray
 ### Output configuration
 #
 # Configure wallpaper & lockscreen
-set $background /home/jeffrey/.local/share/backgrounds/sunrise.jpg
+set $background /home/jeffrey/.local/share/backgrounds/leaf.jpg
 output * bg $background fill
 bindsym $mod+Ctrl+l exec swaylock -f -i $background
 
@@ -97,6 +97,13 @@ exec --no-startup-id swayidle -w \
 # Read `man 5 sway-input` for more information about this section.
 
 input "2:14:ETPS/2_Elantech_Touchpad" {
+    dwt enabled
+    tap enabled
+    natural_scroll enabled
+    middle_emulation enabled
+}
+
+input "76:613:Apple_Inc._Magic_Trackpad_2" {
     dwt enabled
     tap enabled
     natural_scroll enabled
@@ -160,6 +167,7 @@ input "4152:5890:SteelSeries_SteelSeries_Rival_100_Gaming_Mouse" {
 #
 # Workspaces:
 #
+
     # Switch to workspace
     bindsym $mod+1 workspace 1
     bindsym $mod+2 workspace 2
@@ -171,6 +179,7 @@ input "4152:5890:SteelSeries_SteelSeries_Rival_100_Gaming_Mouse" {
     bindsym $mod+8 workspace 8
     bindsym $mod+9 workspace 9
     bindsym $mod+0 workspace 10
+
     # Move focused container to workspace
     bindsym $mod+Shift+1 move container to workspace 1
     bindsym $mod+Shift+2 move container to workspace 2
@@ -184,6 +193,18 @@ input "4152:5890:SteelSeries_SteelSeries_Rival_100_Gaming_Mouse" {
     bindsym $mod+Shift+0 move container to workspace 10
     # Note: workspaces can have any name you want, not just numbers.
     # We just use 1-10 as the default.
+
+    # Assign specific applications to specific workspaces
+    # X11 applications use 'class'
+    # Wayland applications use 'app_id'
+    # See output with swaymsg -t get_tree
+    assign [class="[T|t]elegram[D|d]esktop"] workspace 1
+    assign [class="[D|d]iscord"] workspace 1
+    assign [app_id="[F|f]irefox"] workspace 2
+    assign [app_id="[T|t]hunderbird"] workspace 4
+    assign [class="[V|v]mware-view"] workspace 5
+    assign [class="[S|s]potify"] workspace 7
+
 #
 # Layout stuff:
 #

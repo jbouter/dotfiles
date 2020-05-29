@@ -8,7 +8,7 @@ sudo pacman -S gnome-keyring gnome-settings-daemon networkmanager seahorse eog t
 
 ### Sway etc
 ```bash
-sudo pacman -S sway swaybg swaylock swayidle feh brightnessctl acpi flatpak dunst waybar playerctl
+sudo pacman -S sway swaybg swaylock swayidle feh brightnessctl acpi flatpak dunst waybar playerctl libappindicator-gtk2 libappindicator-gtk3
 yay -S reshift-wayland-git
 ```
 
@@ -47,5 +47,5 @@ ln -sf ~/Workspace/github.com/jbouter/dotfiles/dunst ~/.config/dunst
 The following command will make SSH work with gnome-keyring, and set the keyboard layout to US International with Alt-GR dead keys
 
 ```bash
-printf "SSH_AUTH_SOCK=/run/user/1000/keyring/ssh\nXKB_DEFAULT_LAYOUT=us\nXKB_DEFAULT_VARIANT=altgr-intl\n" | sudo tee -a /etc/environment
+printf "SSH_AUTH_SOCK=/run/user/1000/keyring/ssh\nXKB_DEFAULT_LAYOUT=us\nXKB_DEFAULT_VARIANT=altgr-intl\nMOZ_ENABLE_WAYLAND=1\nXDG_CURRENT_DESKTOP=Unity\n" | sudo tee -a /etc/environment
 ```
