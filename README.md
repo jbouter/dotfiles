@@ -3,19 +3,20 @@
 ### GNOME/graphical dependencies
 
 ```bash
-sudo pacman -S gnome-keyring gnome-settings-daemon networkmanager seahorse eog thunar nextcloud-client pavucontrol
+sudo pacman -S gnome-keyring gnome-settings-daemon networkmanager seahorse eog thunar nextcloud-client pavucontrol telegram-desktop
 ```
 
 ### Sway etc
 ```bash
 sudo pacman -S sway swaybg swaylock swayidle feh brightnessctl acpi flatpak waybar playerctl libappindicator-gtk2 libappindicator-gtk3 wofi mako wl-clipboard
-yay -S reshift-wayland-git
+yay -S reshift-wayland-git wofipassmenu
 ```
 
 ### Flatpak
 
 ```bash
-flatpak install org.telegram.desktop
+flatpak install flathub com.spotify.Client
+flatpak install flathub com.discordapp.Discord
 ```
 
 ### sddm

@@ -128,6 +128,9 @@ input "4152:5890:SteelSeries_SteelSeries_Rival_100_Gaming_Mouse" {
     # Start your launcher
     bindsym $mod+d exec $menu
 
+    # Start Wofi Passmenu
+    bindsym $mod+p exec wofipassmenu
+
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
     # Despite the name, also works for non-floating windows.
