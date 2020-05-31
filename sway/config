@@ -18,7 +18,7 @@ set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu dmenu_path | dmenu | xargs swaymsg exec --
+set $menu dmenu_path | wofi --dmenu | xargs swaymsg exec --
 
 # Fonts
 font pango:Hack Regular 10, FontAwesome5Free Regular 10, FontAwesome5Free Solid 10, FontAwesome5Brands Regular 10
@@ -39,7 +39,7 @@ exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=secrets
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=ssh
 exec --no-startup-id aa-notify -p -s 1 -w 60 -f /var/log/audit/audit.log
 exec --no-startup-id redshift -l 53.21:6.56 -t 6500:3500 -m wayland
-exec --no-startup-id dunst
+exec --no-startup-id mako
 exec --no-startup-id nextcloud
 exec --no-startup-id org.telegram.desktop -startintray
 
@@ -47,7 +47,7 @@ exec --no-startup-id org.telegram.desktop -startintray
 ### Output configuration
 #
 # Configure wallpaper & lockscreen
-set $background /home/jeffrey/.local/share/backgrounds/leaf.jpg
+set $background /home/jeffrey/.local/share/backgrounds/fern_leaf.jpg
 output * bg $background fill
 bindsym $mod+Ctrl+l exec swaylock -f -i $background
 

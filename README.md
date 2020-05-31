@@ -8,7 +8,7 @@ sudo pacman -S gnome-keyring gnome-settings-daemon networkmanager seahorse eog t
 
 ### Sway etc
 ```bash
-sudo pacman -S sway swaybg swaylock swayidle feh brightnessctl acpi flatpak dunst waybar playerctl libappindicator-gtk2 libappindicator-gtk3
+sudo pacman -S sway swaybg swaylock swayidle feh brightnessctl acpi flatpak waybar playerctl libappindicator-gtk2 libappindicator-gtk3 wofi mako wl-clipboard
 yay -S reshift-wayland-git
 ```
 
@@ -36,10 +36,11 @@ sudo pacman -S ttf-hack ttf-font-awesome
 As such:
 
 ```bash
-ln -sf ~/Workspace/github.com/jbouter/dotfiles/sway ~/.config/sway
-ln -sf ~/Workspace/github.com/jbouter/dotfiles/i3blocks ~/.config/i3blocks
 ln -sf ~/Workspace/github.com/jbouter/dotfiles/alacritty ~/.config/alacritty
-ln -sf ~/Workspace/github.com/jbouter/dotfiles/dunst ~/.config/dunst
+ln -sf ~/Workspace/github.com/jbouter/dotfiles/mako ~/.config/mako
+ln -sf ~/Workspace/github.com/jbouter/dotfiles/sway ~/.config/sway
+ln -sf ~/Workspace/github.com/jbouter/dotfiles/waybar ~/.config/waybar
+ln -sf ~/Workspace/github.com/jbouter/dotfiles/wofi ~/.config/wofi
 ```
 
 ## Configure the environment variables
