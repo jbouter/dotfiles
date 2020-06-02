@@ -18,7 +18,7 @@ set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu dmenu_path | wofi --dmenu | xargs swaymsg exec --
+set $menu dmenu_path | dmenu | xargs swaymsg exec --
 
 # Fonts
 font pango:Hack Regular 10, FontAwesome5Free Regular 10, FontAwesome5Free Solid 10, FontAwesome5Brands Regular 10
@@ -128,8 +128,8 @@ input "4152:5890:SteelSeries_SteelSeries_Rival_100_Gaming_Mouse" {
     # Start your launcher
     bindsym $mod+d exec $menu
 
-    # Start Wofi Passmenu
-    bindsym $mod+p exec wofipassmenu
+    # Start Passmenu
+    bindsym $mod+p exec passmenu
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
